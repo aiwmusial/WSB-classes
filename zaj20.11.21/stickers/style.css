@@ -1,0 +1,67 @@
+body {
+   background: white;
+}
+
+.sticker {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 5px;
+}
+#coding{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(red, magenta);
+  /* domyslnie kolor idzie od gory */
+  padding: 50px 30px;
+  border-radius: 20px;
+}
+#web{
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 2px 2px grey;
+  /* te piksele oznaczaja przesuniecie  */
+  background: radial-gradient(yellow, orange, red);
+  padding: 30px;
+  border-radius: 100px;
+}
+#ann{
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: linear-gradient(green, yellow, orange, red, blue, white);
+  padding: 50px;
+  border-radius: 5px;
+}
+#firerobot{
+  background: linear-gradient(to bottom left, white, yellow, tomato);
+  border: 10px dashed tomato;
+  outline: 4px solid tomato;
+  outline-offset: 2px;
+  position: relative;
+}
+#firetext{
+  font-style: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+  transform: rotate(-30deg);
+}
+#greenrobot{
+  background: radial-gradient(yellow, green, blue, grey);
+  border: 10px solid black;
+  outline: 4px solid black;
+  outline-offset: 2px;
+  position: relative;
+}
+#greentext{
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: absolute;
+  bottom: 50px;
+  left: 90px;
+  font-size: 60px;
+  transform: rotate(90deg);
+}
+/* hard color gradient pozwala na oznaczenie procentowe ilosci coloru (https://css-tricks.com/snippets/css/css-linear-gradient/) */
