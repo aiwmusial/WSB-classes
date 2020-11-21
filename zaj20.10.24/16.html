@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="mailto:aiwmusial@gmail.com" method="post">
+    <fieldset>
+       <legend>Dane osobowe:</legend>
+        <label for="imie"> Imie:</label>
+        <input type="text" name="imie" id="imie"><br>
+        <label for="nazwisko"> Nazwisko:</label>
+        <input type="text" name="nazwisko" id="nazwisko"><br>
+        <label for='kobieta'>Kobieta</label>
+        <input type="radio" name="plec" id="kobieta"><br>
+        <label for='mezczyzna'>Mezczyzna</label>
+        <input type="radio" name="plec" id="mezczyzna"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Twoje pytanie</legend>
+        <label for="adresat">Adresat</label>
+        <select name="adresat" id="adresat">
+            <optgroup label='dzal sprzedazy'>
+            <option>Jan Jak</option>
+            </optgroup>
+            <optgroup label='servis'>
+            <option>Ala Kot</option>
+            <option>Ela Bela</option>
+        </optgroup>
+        </select>
+    <br>
+    <textarea name="opinia" id="" cols="30" rows="10"></textarea>
+</fieldset>
+        </body>
+</body>
+</html>

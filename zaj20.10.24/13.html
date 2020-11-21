@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        #strona {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        #gornemenu {
+            height: 50px;
+        } 
+        #gornemenu ul {  
+            padding-left: o;
+            list-style-type: none;
+        }
+        #gornemenu ul li {
+            display: block;
+            float: left;
+            margin-right: 5px;
+        }
+        #gornemenu ul li a{
+            padding: 8px;
+            color: rgb(6, 6, 107);
+        }
+        #gornemenu ul li a:link, #gornemenu ul li a:visited{
+            text-decoration: none;
+            background-color: rgb(112, 206, 192);
+        }
+        #gornemenu ul li a:hover{
+            background-color: rgb(179, 235, 218);
+        }
+        #levemenu {
+            width: 200px;
+            float: left;
+        }
+        .topleft{
+            border: 2px solid navy;
+            background-color: rgb(112, 206, 192);
+            color: navy;
+            height: 40px;
+            overflow: hidden;
+        }
+        .topleft a{
+            color: grey;
+            text-decoration: none;
+        }
+
+        .bottomleft{
+            border: 2px solid navy;
+            background-color: rgb(112, 206, 192);
+            color: navy;
+            height: 40px;
+            overflow: hidden;
+        }
+        .topleft:hover {
+            background-color: rgb(179, 235, 218);  
+            height: auto;
+        }
+        .bottomleft:hover {
+            background-color: rgb(179, 235, 218);  
+            height: auto;
+            }
+        .bottomleft ul li:hover{
+            background-color: grey;
+        }
+        #zaw {
+            float: left;
+            width: 780px;
+        }
+    </style>
+</head>
+<body>
+    <main id='strona'>
+        <nav id='gornemenu'>
+            <ul>
+                <li><a href="">Strona Glowna</a> </li>
+                <li><a href="">Podstrona 1</a> </li>
+                <li><a href="">Podstrona 2</a> </li>
+                <li><a href="">Podstrona 3</a> </li>
+                <li><a href="">Podstrona 4</a> </li>
+            </ul>
+        </nav>
+        <nav id="levemenu">
+            <div class='topleft'>
+                <p>Menu 1</p>
+                <ul>
+                    <li>Link A</li>
+                    <li>Link B</li>
+                </ul>
+            </div>
+            <div class='bottomleft'>
+                <p>Menu 2</p>
+                <ul>
+                    <li>Link 1</li>
+                    <li>Link 2</li>
+                    <li>Link 3</li>
+                </ul>
+            </div>
+        </nav>
+        <section id='zaw'>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque earum dignissimos fugit voluptas non, deleniti voluptates cum, quas dolor excepturi optio est molestiae sapiente corrupti nulla nihil repellendus eius explicabo necessitatibus. Aut fugiat ad iure dolorum numquam adipisci exercitationem eum quam perspiciatis cum quae, laudantium modi, esse porro optio amet accusantium consectetur, voluptatibus repudiandae nihil suscipit sed aperiam magni ipsa. Eligendi illo eum ullam autem dolor ad assumenda voluptatibus fuga maiores tenetur, numquam adipisci dolore error debitis? Reiciendis fugiat maxime debitis ratione, ad voluptatibus est distinctio. Ad aut aliquid nulla beatae amet, tempore illo expedita vero? Magni, asperiores fugiat.</p>
+        </section>
+    </main>
+</body>
+</html>

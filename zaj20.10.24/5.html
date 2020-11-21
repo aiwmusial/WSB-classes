@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementy liniowe i blokowe</title>
+    <style>
+        .zielony{
+            color: green;
+        }
+        .czerwony {
+            color: red;
+        }
+        .rama-z {
+            /* border-color: green;
+            border-width: 2px;
+            border-style: solid; */
+            border:2px solid green;
+            width: 150px;
+            margin: auto;
+        }
+        .rama-c {
+            border:2px solid red;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <p>Ponizej znajduja sie przykladowe listy <span class='zielony'>zwierzat</span> oraz <span class='czerwony'>roslin</span></p>
+    <div class='rama-z'>
+        <p>Lista zwierzat</p>
+        <ul>
+            <li>kot</li>
+            <li>pies</li>
+            <li>mysz</li>
+            <li>kaczka</li>
+        </ul>
+</div>
+<div class='rama-c'>
+    <p>Lista roslin</p>
+    <ul>
+        <li>drzewo</li>
+        <li>trawa</li>
+        <li>kwiaty</li>
+        <li>krzak</li>
+    </ul>
+</div>
+</body>
+</html>

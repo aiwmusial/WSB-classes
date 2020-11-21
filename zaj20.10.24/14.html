@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+</head>
+<body>
+    <!-- metoda get jesli chcesz przeslac dane przez ulr -->
+    <form action="mailto:aiwmusial@gmail.com" method="post">
+    Imie:<input type='text' name='imie' placeholder='wpisz imie'>
+    Nazwisko:<input type='text' name='nazwisko'><br/>
+    Email:<input type='email' name='email'><br/>
+    Plec: Mezczyzna <input type="radio" name="plec" value='M'>Kobieta <input type="radio" name="plec" value='K'><br/>
+    <textarea name="pytanie" cols="30" rows="5">Tu wpisz wiadomosc:</textarea></br>
+
+    Wiek: <select name="wiek">
+        <option value='1'>&lt;18</option>
+        <option value='2'>&gt;25 &lt;40</option>
+        <option value='3'>&gt;40</option>
+    </select>
+</br>
+    <input type='reset' value='wyczysc formularz'>
+    <input type='Submit' value='wyslij'>
+    </form>
+
+</body>
+</html>

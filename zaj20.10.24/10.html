@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odnosniki graficzne</title>
+    <style>
+        a {text-decoration: none;  }
+        #fun  {
+            text-decoration: none;
+            width: 276px;
+            height: 164px;
+            display: block;
+        }
+        #fun:link {
+            background-image: url('materialy/1.png');
+        }
+        #fun:visited {
+            background-image: url('materialy/2.png');
+        }
+        #fun:active {
+            background-image: url('materialy/3.png');
+        }
+        #fun:hover {
+            background-image: url('materialy/4.png');
+        }
+    </style>
+</head>
+<body>
+    <a href="http://wp.pl">
+    <img src="materialy/obrazek.jpg" alt="mapa odnosnikow" target='_blank'></a>
+    <!-- mapa odnosnikow -->
+    <img src="materialy/obrazek.jpg" alt="mapa odnosnikow" usemap="#mapa">
+    <!-- zaloz wspolrzedne lewego gornego i prawego dolnego naroznika -->
+    <!-- 1. przeczytaj wymiary obrazka -->
+    <!-- 2. lewy gorny rog to 0,0 -->
+    <!-- 3. wymiary przeczytane: 156x156px-->
+    <!-- 4. gorna linia wspolrzedne: 0,0; 78,0; 156,0 -->
+    <!-- 5. srodkowa linia: 0,78; 78,78; 156,78 -->
+    <!-- 6. i tak dalej... -->
+    <!-- 7. powiaz to z mapa uzywajac 'usemap' -->
+    <!-- 8. wanze- coordynaty po przekatnej -->
+    <map name="mapa">
+        <area shape="rect" coords="0,0,78,78" href="http://onet.pl" alt="onet">
+        <area shape="rect" coords="78,0,156,78" href="http://gazeta.pl" alt="gazeta">
+        <area shape="rect" coords="0,78,78,156" href="http://wp.pl" alt="wp">
+        <area shape="rect" coords="78,78,156,156," href="http://tvn24.pl" alt="tvn">
+    </map>
+    <br>
+    <a href="http://facebook.com" id='fun'></a>
+
+</body>
+</html>
