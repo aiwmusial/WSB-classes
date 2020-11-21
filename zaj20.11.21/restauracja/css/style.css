@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* ustawienia globalne */
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding:0;
+}
+.hero-image{
+    background: url("../img/heroimage.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.hero-container{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+
+}
+.hero-container h1{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+.hero-container p{
+    line-height: 1.5;
+}
+.hero-form input{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    /* usuwanie outlina */
+    outline: none;
+    position: relative;
+    left: 10%;
+}
+.hero-form button{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: #14c9cf;
+    width: 50%;
+    left: 25%;
+}
+/* three photographs */
+.food{
+    width: 90%;
+    margin: 10px auto;
+}
+.food-column{
+    float: left;
+    width: 32%;
+    margin: 0 5px;
+}
+.food-column img{
+    width: 100%;
+}
