@@ -1,0 +1,1 @@
+Stronka napisana w HTML 4 i troche 5 i trzeba ja zmodyfikowac do HTML5
