@@ -1,0 +1,37 @@
+body {
+  font-family: Impact;
+  background-color: white;
+  color: black;
+}
+
+.roomname {
+  font-size: 30px;
+  text-align: center;
+}
+
+.room {
+  position: relative;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url(stripes.png);
+}
+
+.description {
+  padding: 10px;
+}
+a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+#drzwi{
+  position: absolute;
+  bottom: 0;
+  left: 500px;
+  background-color: burlywood;
+  border: 10px ridge burlywood;
+  border-bottom: none;
+  height: 100px;
+  width: 50px;
+}
