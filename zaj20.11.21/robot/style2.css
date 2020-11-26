@@ -1,0 +1,40 @@
+#face{
+    width: 500px;
+    position: relative;
+}
+#eyes3{
+    width: 200px;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+}
+#hair4{
+    width: 450px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+#nose2{
+    width: 100px;
+    position: absolute;
+    top: 270;
+    left: 200px;
+}
+#mouth2{
+    width: 200px;
+    position: absolute;
+    top: 340px;
+    left: 150px;
+}
+#headphones{
+    width: 460px;
+    position: absolute;
+    top: -15px;
+    left: 25px;
+}
+#bowtie{
+    width: 200px;
+    position: absolute;
+    top: 480px;
+    left: 150px;
+}
