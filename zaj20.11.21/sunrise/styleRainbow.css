@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+  }
+  
+  html {
+    overflow: hidden;
+  }
+  #sky{
+      width: 100%;
+      height: 50%;
+      position: absolute;
+      background: #6190e7;
+      animation: 20s sky;
+
+  }
+  @keyframes sky{
+    0% {background: linear-gradient(blue, black);}
+    10% {background: linear-gradient(blue, black, blue);}
+    33%{background: linear-gradient(black, blue, #43aff7);}
+    66%{background: linear-gradient(rgb(153, 195, 250), #43aff7);}
+    100% {background:linear-gradient( #43aff7, #ffffff)}
+    }
+  
+  #sea{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    background: #2e3097;
+    animation: 20s sea infinite;
+}
+@keyframes sea{
+    0% {background: linear-gradient(rgb(48, 101, 170), #309ee7);}
+    33%{background: linear-gradient(rgb(42, 102, 180), #28648d);}
+    66%{background: linear-gradient(rgb(27, 81, 153), #1e80c2);}
+    100% {background:linear-gradient(blue, black)}
+    }
+
+  #boat{
+    height: 120px;
+    position: absolute;
+    top: 60%;
+    animation: 30s boat infinite;
+}
+@keyframes boat{
+    0% {top: 60%; left: 0;}
+    30%{top: -10%; left: 20%;}
+    100%{top: -30%; left: 90%;}
+}
+    #rainbow{
+        height: 20%;
+        position: absolute;
+        top: 90%;
+        left: 30%;
+        animation: 20s rainbow infinite;
+}
+@keyframes rainbow{
+    0% {top: 90%; left: 40%; height: 20%;}
+    33%{top: 45%; left: 40%; height: 70%;}
+    100% {top: 0%; left: 40%; height: 120%;}
+}
+#sun{
+    height: 55px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    animation: sunrise 20s infinite;
+  }
+  
+  @keyframes sunrise{
+    0% {top: 90%; left: 40%;}
+    12%{top: 80%; left: 40%;}
+    66% {top: 0; left: 40%;}
+    100%{top: 90%; left: 80%;}
+  }
+  #cloud1{
+    height: 50px;
+    position: absolute;
+    animation: cloud1 20s infinite;
+  }
+  #cloud2{
+    height: 100px;
+    position: absolute;
+    animation: cloud2 20s infinite;
+  }
+@keyframes cloud1{
+    0%{left: 0; top: 20%;}
+    50%{left: 50%; top: 0%;}
+    100%{left: 100%; top: 20%;}
+}
+@keyframes cloud2{
+    0%{left: 90%; top: 0%;}
+    60%{left: 50%; top: 20%;}
+    100%{left: 0%; top: 00%;}
+}
+#helicopter{
+    height: 50px;
+    position: absolute;
+    animation: helicopter 5s infinite;
+}
+@keyframes helicopter{
+    0% {top: 50%; left: 100%; transform:rotate(0deg);}
+    30%{top: 55%; left: 40%; transform:rotate(0deg);}
+    70%{top: 55%; left: 22%; transform:rotate(15deg);}
+    71%{top: 55%; left: 20%; transform:rotate(45deg);}
+    100%{top: 120%; left: 20%;}
+  }
