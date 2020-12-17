@@ -1,0 +1,36 @@
+  #art{
+      display: table;
+      border-spacing: 1px;
+      background-color: black;
+      border: 5px solid black;
+  }
+
+  .row{
+      display: table-row;
+  }
+  
+  .pixel{
+      display: table-cell;
+      background-color: #ffffff;
+      height: 40px;
+      width: 40px;
+  }
+  .pen{
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border: 2px solid black;
+  }
+  #p1{
+      background-color: magenta;
+  }
+  #p2{
+      background-color: rgb(21, 86, 172);
+  }
+  #p3{
+      background-color: black;
+  }
+  }
+  #p4{
+      background-color: white;
+  }
